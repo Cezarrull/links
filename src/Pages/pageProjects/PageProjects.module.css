@@ -1,4 +1,4 @@
-.pageBody {
+.projectBody {
     font-family: 'Poppins', sans-serif;
     padding: 15px;
     height: 100vh;
@@ -9,7 +9,15 @@
     align-items: center;
 }
 
-.content {
+.projectContent h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.projectContent {
     height: max-content;
     width: 100%;
     border-radius: 16px;
@@ -18,32 +26,7 @@
     padding: 20px;
 }
 
-.content h1 {
-    text-align: center;
-    font-weight: bold;
-    color: var(--white);
-    font-size: 1.5rem;
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
-
-.imageProfile {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.imageProfile img {
-    box-shadow: 0 0 25px var(--purpleThree);
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    background-image: cover;
-}
-
-.listContent ul li {
+.projectContent ul li {
     background: var(--grayTwo);
     margin-bottom: 15px;
     width: 100%;
@@ -54,7 +37,7 @@
     list-style: none;
 }
 
-.listContent ul li a {
+.projectContent ul li a {
     color: var(--white);
     font-size: 1rem;
     font-weight: 600;
@@ -66,19 +49,41 @@
     text-decoration: none;
 }
 
-.listContent ul li:hover {
+.projectContent ul li:hover {
     scale: 1.05;
     background: var(--whiteTwo);
 }
 
-.listContent ul li a:hover {
+.projectContent ul li a:hover {
     color: var(--gray);
 }
 
-/*////////////////////////////////////////////////////////// 700+ ////////////////////////////////////////////////////////////*/
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+}
+
+.button a {
+    color: var(--gray);
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.button a:hover {
+    color: var(--white);
+}
+
+.arrow {
+    padding-top: 5px;
+}
 
 @media(min-width: 700px) {
-    .content {
+    .projectContent {
         max-height: 70vh;
         max-width: 40vw;
         box-shadow: 0 0 100px var(--purpleTwo);
@@ -86,7 +91,7 @@
 }
 
 @media (min-width: 1300px) {
-    .content {
+    .projectContent {
         max-width: 25vw;
     }
 }

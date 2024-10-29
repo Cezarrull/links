@@ -1,10 +1,10 @@
 import './global.css'
-import { PageOne } from './Pages/PageOne/PageOne'
+import { Routes } from './Pages/Routes'
 
 export function App() {
   return (
     <>
-      <PageOne />
+      <Routes />
     </>
   )
 }

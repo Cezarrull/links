@@ -8,9 +8,12 @@
     --black: #000000;
 
     --gray: #333333;
+    --grayTwo: #7c7c7c5d;
     
     --white: #ffffff;
-
+    --whiteTwo: #ffffff80;
+    
     --purpleOne: #200158;
-    --purpleTwo: #62466d;
+    --purpleTwo: #b301fa;
+    --purpleThree: #c77df8;
 }
