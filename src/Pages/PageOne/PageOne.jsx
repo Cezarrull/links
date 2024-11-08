@@ -1,5 +1,6 @@
 import style from './PageOne.module.css'
 import { Link } from 'react-router-dom'
+import { LinkSimple, InstagramLogo, TiktokLogo, ChalkboardSimple } from '@phosphor-icons/react';
 
 export function PageOne() {
     return(
@@ -9,20 +10,18 @@ export function PageOne() {
                     <div className={style.imageProfile}>
                         <img src="https://avatars.githubusercontent.com/u/170759421?v=4&size=64" alt="Imagem de perfil github" />
                     </div>
-                    <h1>@Cezar Rull</h1>
+                    <h1><LinkSimple size={20} />Links</h1>
                     <div className={style.listContent}>
                         <ul>
                             <li>
-                                <a href="https://instagram.com/cezar_rull" target='_blanck'>Instagram</a>
+                                <a href="https://instagram.com/cezar_rull" target='_blanck'><InstagramLogo size={20} /> Instagram</a>
                             </li>
                             <li>
-                                <a href="https://tiktok.com/@e_o_rola" target='_blanck'>TikTok</a>
+                                <a href="https://tiktok.com/@e_o_rull" target='_blanck'><TiktokLogo size={20} /> TikTok</a>
                             </li>
+                            
                             <li>
-                                <a href="https://github.com/Cezarrull" target='_blanck'>GitHub</a>
-                            </li>
-                            <li>
-                                <Link to="/Projetos" >Projetos</Link>
+                                <Link to="/Projetos" ><ChalkboardSimple size={20} />Projetos</Link>
                             </li>
                         </ul>
                     </div>

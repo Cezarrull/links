@@ -3,7 +3,7 @@
     padding: 15px;
     height: 100vh;
     width: 100vw;
-    background: var(--purpleOne);
+    background: var(--whiteThree);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,19 +12,20 @@
 .content {
     height: max-content;
     width: 100%;
-    border-radius: 16px;
-    background: var(--whiteTwo);
-    box-shadow: 0 0 15px var(--purpleTwo);
+    border-radius: 5px;
+    background: var(--white);
+    box-shadow: 0px 0px 13px var(--blackTwo);
     padding: 20px;
 }
 
 .content h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
-    color: var(--white);
+    color: var(--blue);
     font-size: 1.5rem;
-    margin-top: 15px;
-    margin-bottom: 50px;
+    margin: 15px 10px 50px 0;
 }
 
 .imageProfile {
@@ -36,7 +37,6 @@
 
 
 .imageProfile img {
-    box-shadow: 0 0 25px var(--purpleThree);
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -50,12 +50,12 @@
     height: 50px;
     border: 1px solid var(--white);
     border-radius: 10px;
-    transition: 0.2s;
+    transition: 0.4s;
     list-style: none;
 }
 
 .listContent ul li a {
-    color: var(--white);
+    color: var(--blue);
     font-size: 1rem;
     font-weight: 600;
     width: 100%;
@@ -68,11 +68,11 @@
 
 .listContent ul li:hover {
     scale: 1.05;
-    background: var(--whiteTwo);
+    background: var(--blue);
 }
 
 .listContent ul li a:hover {
-    color: var(--gray);
+    color: var(--white);
 }
 
 /*////////////////////////////////////////////////////////// 700+ ////////////////////////////////////////////////////////////*/
@@ -81,7 +81,7 @@
     .content {
         max-height: 70vh;
         max-width: 40vw;
-        box-shadow: 0 0 100px var(--purpleTwo);
+        box-shadow: 0 0 100px var(--blackTwo);
     }
 }
 

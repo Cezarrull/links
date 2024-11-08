@@ -3,26 +3,29 @@
     padding: 15px;
     height: 100vh;
     width: 100vw;
-    background: var(--purpleOne);
+    background: var(--whiteThree);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .projectContent h1 {
-    text-align: center;
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
     font-weight: bold;
-    color: var(--white);
+    color: var(--blue);
     margin-bottom: 50px;
+    gap: 4px;
 }
 
 .projectContent {
     height: max-content;
     width: 100%;
-    border-radius: 16px;
-    background: var(--whiteTwo);
-    box-shadow: 0 0 15px var(--purpleTwo);
+    border-radius: 5px;
+    background: var(--white);
+    box-shadow: 0 0 13px var(--blackTwo);
     padding: 20px;
 }
 
@@ -38,7 +41,7 @@
 }
 
 .projectContent ul li a {
-    color: var(--white);
+    color: var(--blue);
     font-size: 1rem;
     font-weight: 600;
     width: 100%;
@@ -51,11 +54,11 @@
 
 .projectContent ul li:hover {
     scale: 1.05;
-    background: var(--whiteTwo);
+    background: var(--blue);
 }
 
 .projectContent ul li a:hover {
-    color: var(--gray);
+    color: var(--white);
 }
 
 .button {
@@ -68,6 +71,9 @@
 
 .button a {
     color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.15rem;
     font-weight: 500;
     text-decoration: none;
@@ -75,18 +81,18 @@
 }
 
 .button a:hover {
-    color: var(--white);
+    color: var(--blue);
 }
 
 .arrow {
-    padding-top: 5px;
+    margin-top: 2px;
 }
 
 @media(min-width: 700px) {
     .projectContent {
         max-height: 70vh;
         max-width: 40vw;
-        box-shadow: 0 0 100px var(--purpleTwo);
+        box-shadow: 0 0 100px var(--blackTwo);
     }
 }
 

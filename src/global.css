@@ -6,14 +6,14 @@
 
 :root {
     --black: #000000;
+    --blackTwo: #ccc;
 
     --gray: #333333;
     --grayTwo: #7c7c7c5d;
     
     --white: #ffffff;
     --whiteTwo: #ffffff80;
-    
-    --purpleOne: #200158;
-    --purpleTwo: #b301fa;
-    --purpleThree: #c77df8;
+    --whiteThree: #eeeded;
+
+    --blue: #295091;
 }
