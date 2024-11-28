@@ -17,6 +17,9 @@ export function PageProjects() {
                             <a href="https://www.rotarypovoador.org.br/" target='_blanck'>RotaryPovoador</a>
                         </li>
                         <li>
+                            <a href="https://twoone.netlify.app/" target='_blanck'>Twoone (em desenvolvimento)</a>
+                        </li>
+                        <li>
                             <a href="https://github.com/Cezarrull" target='_blanck'><GithubLogo size={20} />GitHub</a>
                         </li>
                     </ul>
