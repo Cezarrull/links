@@ -14,6 +14,9 @@ export function PageProjects() {
                             <a href="https://allcarinfo.netlify.app/" target='_blanck'>AllCar</a>
                         </li>
                         <li>
+                            <a href="https://twoone.netlify.app/" target='_blanck'>TWOONE (Versão 1.0)</a>
+                        </li>
+                        <li>
                             <a href="https://www.rotarypovoador.org.br/" target='_blanck'>RotaryPovoador</a>
                         </li>
                         <li>
