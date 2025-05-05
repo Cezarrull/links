@@ -14,16 +14,10 @@ export function PageProjects() {
                             <a href="https://allcarinfo.netlify.app/" target='_blanck'>AllCar</a>
                         </li>
                         <li>
-                            <a href="https://twoone.netlify.app/" target='_blanck'>TWOONE</a>
-                        </li>
-                        <li>
                             <a href="https://brainqi.netlify.app/" target='_blanck'>BrainQI (Em desenvolvimento)</a>
                         </li>
                         <li>
-                            <a href="https://www.rotarypovoador.org.br/" target='_blanck'>RotaryPovoador</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Cezarrull" target='_blanck'><GithubLogo size={20} />GitHub</a>
+                            <a href="https://www.rotarypovoador.org.br/" target='_blanck'>RotaryPovoador(Feito apenas reajuste de desing)</a>
                         </li>
                     </ul>
 

@@ -19,7 +19,9 @@ export function PageOne() {
                             <li>
                                 <a href="https://tiktok.com/@e_o_rull" target='_blanck'><TiktokLogo size={20} /> TikTok</a>
                             </li>
-                            
+                            <li>
+                                <a href="https://github.com/Cezarrull" target='_blanck'><GithubLogo size={20} />GitHub</a>
+                            </li>
                             <li>
                                 <Link to="/Projetos" ><ChalkboardSimple size={20} />Projetos</Link>
                             </li>
