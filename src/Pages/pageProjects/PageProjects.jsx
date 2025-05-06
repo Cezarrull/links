@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from './PageProjects.module.css';
-import { CaretLeft, ChalkboardSimple, GithubLogo } from '@phosphor-icons/react';
+import { CaretLeft, ChalkboardSimple } from '@phosphor-icons/react';
 
 export function PageProjects() {
     return(
@@ -15,9 +15,6 @@ export function PageProjects() {
                         </li>
                         <li>
                             <a href="https://brainqi.netlify.app/" target='_blanck'>BrainQI (Em desenvolvimento)</a>
-                        </li>
-                        <li>
-                            <a href="https://www.rotarypovoador.org.br/" target='_blanck'>RotaryPovoador(Feito apenas reajuste de desing)</a>
                         </li>
                     </ul>
 

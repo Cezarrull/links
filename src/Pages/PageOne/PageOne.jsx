@@ -1,6 +1,6 @@
 import style from './PageOne.module.css'
 import { Link } from 'react-router-dom'
-import { LinkSimple, InstagramLogo, TiktokLogo, ChalkboardSimple } from '@phosphor-icons/react';
+import { LinkSimple, InstagramLogo, TiktokLogo, ChalkboardSimple, GithubLogo } from '@phosphor-icons/react';
 
 export function PageOne() {
     return(
